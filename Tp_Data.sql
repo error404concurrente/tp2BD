@@ -21,10 +21,10 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
 
 COMMIT;
 
