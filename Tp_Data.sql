@@ -68,7 +68,7 @@ INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (5, 'Alt
 
 INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (6, 'Condominios Condorito', 3);
 INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (7, 'Condominios Acereje', 5);
-INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (7, 'Condominios Pinguino', 2);
+INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (8, 'Condominios Pinguino', 2);
 
 COMMIT;
 
