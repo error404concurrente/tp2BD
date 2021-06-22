@@ -6,10 +6,6 @@ USE `mydb`;
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (19021538, 'Adriel Ian', 'Chagay Vera', "3512283832", 'destructordemundos@gmail.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (96846514, 'Alejo Alejandro', 'Severini Montaner', "3541375942", 'boquitaelmasgrande@gmail.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (54635458, 'Agustina', 'Wortley de las Nieves', "3517868894", 'panconmanteca@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (89454897, 'Dwane', 'Johnson', "4876549876", 'laroca@gmail.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (89484987, 'Papá', 'Noel', "4874548757", 'jojojo@gmail.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48945649, 'Tony', 'Hawk', "7848462518", 'sk8pro@gmail.com');
@@ -17,6 +13,18 @@ INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) V
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48948541, 'Batman', 'Batman', "8974868765", 'batman@batimail.baticom');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (89438749, 'Lionel', 'Messi', "1894687985", 'barcelona4ever@gmail.com');
 INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48945187, 'MrRoboto', 'Domo Arigato', "1111111111111", 'killroy@gmail.com');
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`Personal`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
+INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
+INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
+INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
 
 COMMIT;
 
