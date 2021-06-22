@@ -66,6 +66,10 @@ INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (3, 'Vil
 INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (4, 'Estación Espacial', 1);
 INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (5, 'Altos de America', 2);
 
+INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (6, 'Condominios Condorito', 3);
+INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (7, 'Condominios Acereje', 5);
+INSERT INTO `mydb`.`Barrio` (`ID_Barrio`, `Nombre`, `ID_Ciudad`) VALUES (7, 'Condominios Pinguino', 2);
+
 COMMIT;
 
 
@@ -80,6 +84,9 @@ INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (3, 'Los M
 INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (4, 'Sector 147', 4);
 INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (5, 'Las Manzanas', 5);
 
+INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (6, 'Dr. Chimuelo', 6);
+INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (7, 'Dr. Alejo', 7);
+INSERT INTO `mydb`.`Calle` (`ID_Calle`, `Nombre`, `ID_Barrio`) VALUES (8, 'Bebé Yoda', 8);
 COMMIT;
 
 
@@ -104,6 +111,26 @@ INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Obser
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (3, 15, 1, 'Hermosa vista del espacio', 4, 01, 48652154, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (4, 400, 1, 'Muy bonito', 2, 58, 54635458, 1);
 
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (5, 15, 1, '', 6, 10, 87454788, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (6, 15, 1, '', 6, 11, 87454788, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (7, 15, 1, '', 6, 12, 87454788, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (8, 15, 1, '', 6, 13, 87454788, 1);
+
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (9, 15, 1, '', 6, 20, 48652154, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (10, 15, 1, '', 6, 21, 48652154, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (11, 15, 1, '', 6, 22, 48652154, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (12, 15, 1, '', 6, 23, 48652154, 1);
+
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (13, 15, 1, '', 7, 10, 54635458, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (14, 15, 1, '', 7, 11, 54635458, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (15, 15, 1, '', 7, 12, 54635458, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (16, 15, 1, '', 7, 13, 54635458, 1);
+
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (17, 15, 1, '', 8, 10, 19021538, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (18, 15, 1, '', 8, 11, 19021538, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (19, 15, 1, '', 8, 12, 19021538, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (20, 15, 1, '', 8, 13, 19021538, 1);
+
 COMMIT;
 
 
@@ -121,6 +148,28 @@ INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_In
 
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (7, 4, 48945649, 48652154, '2020-07-21', '2021-07-21');
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (8, 4, 48945649, 48652154, '2021-07-21', '2022-07-21');
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`Registro_de_Venta`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (1, 5, 96846514, 48652154, '2020-01-01');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (2, 6, 96846514, 48652154, '2021-05-25');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (3, 7, 96846514, 48652154, '2021-01-01');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (4, 8, 96846514, 48652154, '2020-01-21');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (6, 9, 96846514, 86423158, '2021-01-22');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (7, 10, 89438749, 86423158, '2020-07-21');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (8, 11, 89438749, 86423158, '2021-07-21');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (9, 12, 89438749, 86423158, '2020-01-01');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (10, 13, 89438749, 47852184, '2021-05-25');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (11, 14, 89438749, 47852184, '2021-01-01');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (12, 15, 89438749, 84935435, '2020-01-21');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (13, 16, 48945187, 84935435, '2021-01-22');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (14, 17, 48945187, 84935435, '2020-07-21');
+INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (15, 18, 48945187, 84935435, '2021-07-21');
 
 COMMIT;
 

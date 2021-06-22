@@ -136,11 +136,30 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Registro_de_Alquiler` (
 	FOREIGN KEY (`DNI_Inquilino`)
 	REFERENCES `mydb`.`Persona` (`DNI`),
 	FOREIGN KEY (`ID_Inmueble`)
-	REFERENCES `mydb`.`Inmueble` (`ID_Inmueble`),
+	REFERENCES `mydb`.`Inmueble` (`ID_Inmueble`)
 	FOREIGN KEY (`Encargado_de_Cuenta`)
 	REFERENCES `mydb`.`Personal` (`DNI`))
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Table `mydb`.`Registro_de_Venta`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`Registro_de_Alquiler` (
+	`ID_Venta` INT NOT NULL,
+	`ID_Inmueble` INT NOT NULL,
+	`DNI_Cliente` INT NOT NULL,
+	`Encargado_de_Cuenta` INT NOT NULL,
+	`Fecha_de_Venta` DATE NOT NULL,
+	PRIMARY KEY (`ID_Alquiler`),
+	INDEX `DNI_Cliente` (`DNI_Cliente` ASC) VISIBLE,
+	INDEX `ID_Inmueble_idx` (`ID_Inmueble` ASC) VISIBLE,
+	FOREIGN KEY (`DNI_Cliente`)
+	REFERENCES `mydb`.`Persona` (`DNI`),
+	FOREIGN KEY (`ID_Inmueble`)
+	REFERENCES `mydb`.`Inmueble` (`ID_Inmueble`)
+	FOREIGN KEY (`Encargado_de_Cuenta`)
+	REFERENCES `mydb`.`Personal` (`DNI`))
+ENGINE = InnoDB;
 
 -- -----------------------------------------------------
 -- Table `mydb`.`Pago_de_Alquiler`
