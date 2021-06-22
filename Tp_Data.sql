@@ -108,7 +108,7 @@ START TRANSACTION;
 USE `mydb`;
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (1, 300000, 500, 'Tiene una cueva abajo', 5, 51, 87454788, 2);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (2, 30, 15, '', 1, 7755, 19021538, 2);
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (3, 15, 1, 'Hermosa vista del espacio', 4, 01, 48652154, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (3, 15, 1, 'Hermosa vista del espacio', 4, 01, 89454897, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (4, 400, 1, 'Muy bonito', 2, 58, 54635458, 1);
 
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (5, 15, 1, '', 6, 10, 87454788, 1);
@@ -116,10 +116,10 @@ INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Obser
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (7, 15, 1, '', 6, 12, 87454788, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (8, 15, 1, '', 6, 13, 87454788, 1);
 
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (9, 15, 1, '', 6, 20, 48652154, 1);
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (10, 15, 1, '', 6, 21, 48652154, 1);
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (11, 15, 1, '', 6, 22, 48652154, 1);
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (12, 15, 1, '', 6, 23, 48652154, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (9, 15, 1, '', 6, 20, 89454897, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (10, 15, 1, '', 6, 21, 89454897, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (11, 15, 1, '', 6, 22, 89454897, 1);
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (12, 15, 1, '', 6, 23, 89454897, 1);
 
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (13, 15, 1, '', 7, 10, 54635458, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (14, 15, 1, '', 7, 11, 54635458, 1);
