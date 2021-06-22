@@ -227,11 +227,11 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (1, 1, 47852184, 1, '2019-08-16', 2000, '2019-12-01');
-INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (2, 2, 47852184, 1, '2019-08-16', 1000, '2019-12-01');
-INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (3, 1, 47852184, 2, '2019-02-14', 20000, '2019-12-01');
-INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (4, 2, 47852184, 2, '2019-02-14', 20000, '2019-12-01');
-INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (5, 2, 47852184, 2, '2019-02-14', 20000, '2020-12-01');
+INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (1, 1, 96846514, 1, '2019-08-16', 2000, '2019-12-01');
+INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (2, 2, 96846514, 1, '2019-08-16', 1000, '2019-12-01');
+INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (3, 1, 96846514, 2, '2019-02-14', 20000, '2019-12-01');
+INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (4, 2, 96846514, 2, '2019-02-14', 20000, '2019-12-01');
+INSERT INTO `mydb`.`Oferta` (`ID_Oferta`, `ID_Tipo_Operacion`, `Encargado_de_Cuenta`, `ID_Inmueble`, `Fecha_de_Inicio`, `Monto`, `Validez_de_Pago`) VALUES (5, 2, 96846514, 2, '2019-02-14', 20000, '2020-12-01');
 COMMIT;
 
 
