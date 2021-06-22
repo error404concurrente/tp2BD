@@ -136,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Registro_de_Alquiler` (
 	FOREIGN KEY (`DNI_Inquilino`)
 	REFERENCES `mydb`.`Persona` (`DNI`),
 	FOREIGN KEY (`ID_Inmueble`)
-	REFERENCES `mydb`.`Inmueble` (`ID_Inmueble`)
+	REFERENCES `mydb`.`Inmueble` (`ID_Inmueble`),
 	FOREIGN KEY (`Encargado_de_Cuenta`)
 	REFERENCES `mydb`.`Personal` (`DNI`))
 ENGINE = InnoDB;

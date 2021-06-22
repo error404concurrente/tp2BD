@@ -104,9 +104,9 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `ID_Personal`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (1, 1, 48945649, 47852184, '2020-01-01', '2021-01-01');
-INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `ID_Personal`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (2, 2, 89438749, 47852184, '2021-05-25', '2022-05-25');
-INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `ID_Personal`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (3, 1, 48945649, 47852184, '2021-01-01', '2022-01-01');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (1, 1, 48945649, 47852184, '2020-01-01', '2021-01-01');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (2, 2, 89438749, 47852184, '2021-05-25', '2022-05-25');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (3, 1, 48945649, 47852184, '2021-01-01', '2022-01-01');
 
 COMMIT;
 
