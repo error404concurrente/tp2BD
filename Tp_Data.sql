@@ -21,10 +21,10 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
-INSERT INTO `mydb`.`Persona` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (86423158, 'Jimena Silvia', 'Vega Cuevas', "3518030490", 'abandonamaterias@gmail.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (47852184, 'Rodrigo', 'De Severini', "7894563570", 'dameplata@gmail.com');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (48652154, 'Inigo', 'Montoya', "5342542015", 'youkilledmyfather@prepareto.die');
+INSERT INTO `mydb`.`Personal` (`DNI`, `Nombre`, `Apellido`, `Celular`, `Email`) VALUES (84935435, 'Almuerzo', 'Conhambre', "5468454186", 'polenta@conjugo.com');
 
 COMMIT;
 
@@ -115,6 +115,13 @@ USE `mydb`;
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (1, 1, 48945649, 47852184, '2020-01-01', '2021-01-01');
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (2, 2, 89438749, 47852184, '2021-05-25', '2022-05-25');
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (3, 1, 48945649, 47852184, '2021-01-01', '2022-01-01');
+
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (4, 3, 48945649, 86423158, '2020-01-21', '2021-01-21');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (6, 3, 48945649, 86423158, '2021-01-22', '2022-01-22');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (5, 4, 89438749, 86423158, '2020-05-25', '2021-05-25');
+
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (4, 4, 48945649, 48652154, '2020-07-21', '2021-07-21');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (6, 4, 48945649, 48652154, '2021-07-21', '2022-07-21');
 
 COMMIT;
 
