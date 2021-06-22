@@ -119,8 +119,8 @@ INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_In
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (4, 3, 48945649, 86423158, '2020-01-21', '2021-01-21');
 INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (6, 3, 48945649, 86423158, '2021-01-22', '2022-01-22');
 
-INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (6, 4, 48945649, 48652154, '2020-07-21', '2021-07-21');
-INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (7, 4, 48945649, 48652154, '2021-07-21', '2022-07-21');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (7, 4, 48945649, 48652154, '2020-07-21', '2021-07-21');
+INSERT INTO `mydb`.`Registro_de_Alquiler` (`ID_Alquiler`, `ID_Inmueble`, `DNI_Inquilino`,  `Encargado_de_Cuenta`, `Inicio_de_Contrato`, `Fin_de_Contrato`) VALUES (8, 4, 48945649, 48652154, '2021-07-21', '2022-07-21');
 
 COMMIT;
 
