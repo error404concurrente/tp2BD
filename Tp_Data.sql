@@ -164,8 +164,8 @@ INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (7, 10, 89438749, 86423158, '2020-07-21');
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (8, 11, 89438749, 86423158, '2021-07-21');
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (9, 12, 89438749, 86423158, '2020-01-01');
-INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (10, 13, 89438749, 47852184, '2021-05-25');
-INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (11, 14, 89438749, 47852184, '2021-01-01');
+--INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (10, 13, 89438749, 47852184, '2021-05-25');
+--INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (11, 14, 89438749, 47852184, '2021-01-01');
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (12, 15, 89438749, 84935435, '2020-01-21');
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (13, 16, 48945187, 84935435, '2021-01-22');
 INSERT INTO `mydb`.`Registro_de_Venta` (`ID_Venta`, `ID_Inmueble`, `DNI_Cliente`,  `Encargado_de_Cuenta`, `Fecha_de_Venta`) VALUES (14, 17, 48945187, 84935435, '2020-07-21');
