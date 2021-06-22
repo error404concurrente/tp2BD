@@ -239,7 +239,6 @@ COMMIT;
 START TRANSACTION;
 USE `mydb`;
 INSERT INTO `mydb`.`Registro_de_Busqueda` (`ID_Busqueda`, `ID_Oferta`) VALUES (1, 1);
-INSERT INTO `mydb`.`Registro_de_Busqueda` (`ID_Busqueda`, `ID_Oferta`) VALUES (2, 2);
 
 COMMIT;
 
