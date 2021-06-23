@@ -132,7 +132,7 @@ INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Obser
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (20, 15, 1, '', 8, 13, 19021538, 1);
 
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (21, 15, 1, '', 8, 14, 19021538, 1);
-INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (22, 15, 1, '', 8, 15, 19021538, 10;
+INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (22, 15, 1, '', 8, 15, 19021538, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (23, 15, 1, '', 8, 16, 19021538, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (24, 15, 1, '', 8, 17, 19021538, 1);
 INSERT INTO `mydb`.`Inmueble` (`ID_Inmueble`, `Superficie`, `Antiguedad`, `Observaciones`, `ID_Calle`, `Altura`, `DNI_Propietario`, `ID_Estado`) VALUES (25, 15, 1, '', 8, 18, 19021538, 1);
